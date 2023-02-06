@@ -8,7 +8,7 @@ export default {
     }
   },
   mounted() {
-    axios.get('https://news-at.zhihu.com/api/4/news/latest')
+    axios.get('http://127.0.0.1:8010/news/latest')
       .then((response) => {
         console.log(response);
         this.msg = response.data;
