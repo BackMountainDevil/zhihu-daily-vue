@@ -70,6 +70,8 @@ https://news-at.zhihu.com/api/4/news/latest
 
 axios 无法通过访问 `https://news-at.zhihu.com/api/4/news/latest`来获取内容，通过访问 `http://127.0.0.1:8010/news/latest` 后则能获取到内容，这就是代理的作用
 
+图片源地址是`https://picx.zhimg.com/v2-9511f5969cde0660261e9abe04ae54d7.jpg?source=8673f162`，代理地址则是 `http://127.0.0.1:8011/img/https://picx.zhimg.com/v2-9511f5969cde0660261e9abe04ae54d7.jpg?source=8673f162`
+
 ## Project Setup
 
 ```sh
