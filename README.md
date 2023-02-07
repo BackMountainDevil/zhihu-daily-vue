@@ -147,8 +147,16 @@ axios 无法通过访问 `https://news-at.zhihu.com/api/4/news/latest`来获取�
 npm install # 安装依赖
 
 node proxy.js # 运行代理
-
+# 打开另一个终端
 npm run dev # debug 模式运行
 
 npm run build
 ```
+
+# 参考
+
+[《Vue.js实战》](https://github.com/icarusion/vue-book)
+
+[Vue 3 doc](https://cn.vuejs.org/guide/introduction.html)
+
+[css左右布局（传统模型、flex、grid）Nice先生的狂想曲 2019.09.30](https://www.jianshu.com/p/1ff30d824cb7)
